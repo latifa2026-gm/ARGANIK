@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.logo{
+    margin-top: 1%;
+    margin-left: 40px;
+    
+    width: 120px;
+    height: 60px;
+  
+}
+.en-tete {
+  position:sticky;
+  top: 0;
+  z-index: 10;
+  
+  background-color: #f5eee2;
+  border-bottom: 1px solid #E5E7EB;
+  justify-content: center;
+  align-items: center;
+  
+}
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid #FF6B2C;
+  outline-offset: 2px;
+}
+
+ /* bach ndir annule l effect dyal menue*/
+ ul {                                                     
+
+  list-style: none;
+  
+}
+
+.menu {
+  
+  display: flex;
+  gap: 30px;
+}
+
+.menu a {
+  font-weight: 500;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+}
+
+.menu a:hover {
+  color: #3fbe45;
+}
+
+
+.menu .lien-actif {
+  color: #e8efeb;
+  font-weight: 600;
+  border:#2f4a3a;
+  background-color: #2f4a3a;
+}
+
+#liv{
+  color: #f5eee2;
+  border:#2f4a3a ;
+  background-color: #2f4a3a;
+  text-align: center;
+}
