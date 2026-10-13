@@ -1,0 +1,18 @@
+/*les variables globales de css */
+:root{
+
+    --color-primary:#1F293F;
+    --color-dark:#0F1B2D;
+    --color-accent:#FF6B2D;
+    --color-light:#F1F8FA;
+    --color-white:#FFFFFF;
+   /*on precis la taille maximale du conteneur en general. */
+    --container-width:1200px;
+}
+/*
+reinisialisation de css :
+*/
+*{
+    margin: 0;
+    
+}
