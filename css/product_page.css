@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding-top: 2%;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation > a {
+  text-decoration: none;
+}
