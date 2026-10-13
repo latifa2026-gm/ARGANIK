@@ -28,12 +28,13 @@ h3 {
   display: flex;
   align-items: center;
 }
-.title h5 {
+.title p {
   background-color: #ffd6a6;
   border-radius: 25px;
   padding: 0px 15px;
   margin: 5px;
   color: #60241e;
+  font-weight: bold;
 }
 h6 {
   color: #8b5e3c;
@@ -47,7 +48,7 @@ h5 {
   margin: 20px;
   color: #1f150c;
 }
-.contact .infos {
+.infos {
   display: flex;
 }
 .contact_icons img {
@@ -65,8 +66,8 @@ footer .labels {
 }
 
 .labels {
-    font-weight: bold;
-    color: #1f150c;
+  font-weight: bold;
+  color: #1f150c;
 }
 .contact_icons {
   display: flex;
