@@ -107,6 +107,7 @@ button:focus-visible {
    position: absolute;
   top: -5px;
   left: 1200px;
+  border:#a3cfb4 solid 2px;
 }
 .profile button{
   position: absolute;
