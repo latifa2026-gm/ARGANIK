@@ -2,7 +2,7 @@
 :root {
     --color-primary: #1F293F;
     --color-dark: #0F1B2D;
-    --color-accent: #FF6B2D;
+    --color-accent:darkorange;
     --color-light: #F1F8FA;
     --color-white: #FFFFFF;
     --color-green: #2f4a3a;
@@ -25,7 +25,6 @@ body {
     line-height: 1.6;
 }
 
-
 a {
     text-decoration: none;
 }
@@ -33,7 +32,99 @@ a {
 /* Hero Section */
 .hero-section {
     width: 100%;
-    background-color: #e8ac43;
-    padding: 50px 20px;
-    text-align: center;
+    padding: 20px 0 0 0;
+    margin: 20px;
+    background-image: url(../assets/images/hero/accueil-hero-cooperatrices.jpg);
+   
 }
+.paragraphe-dessus-titre{
+  margin-top:3px ;
+  width: 20%;
+  height: 15%;
+  background-color: var(--color-accent);
+  border-radius: 10% 10%;
+}
+.coched-cercle{
+  width: 16px;
+  height: 16px;
+  background-color: var(--color-accent);
+}
+.title-hero-page{
+  font-size: 26px;
+  color: var(--color-dark);
+
+}
+.span-titre{
+  color: var(--color-accent);
+}
+.hero-text{
+  width: 50%;
+
+}
+.hero-cta{
+  margin: 0 10px 10px 0px;
+  
+}
+.btn-principal{
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #dbdddf;
+  margin-right: 5px;
+}
+
+
+.btn-secondaire{
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #dbdddf;
+ 
+ 
+}
+.fleche-image{
+  background-color: antiquewhite;
+}
+.list-element{
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  font-family: var(--font-body);
+}
+/* la deuxieme section : */
+.grid-produits{
+  display: flex;
+  gap: 10px;
+  position: relative;
+  
+}
+
+.produit-1{
+ box-shadow: 0 0 10px  rgb(0, 0, 0);
+  border-radius: 10px ;
+}
+.produit-2{
+   box-shadow: 0 0 10px  rgb(0, 0, 0);
+  border-radius: 10px ;
+}
+.produit-3{
+  box-shadow: 0 0 10px  rgb(0, 0, 0);
+  border-radius: 10px ;
+}
+.produit-4{
+ box-shadow: 0 0 10px  rgb(0, 0, 0);
+  border-radius: 10px ;
+  
+}
+.image-product{
+   background-color: antiquewhite;
+}
+
+/* la troisieme section : */
+
+.para-selection{
+  color: rgb(158, 119, 20);
+  font-style: bold;
+}
+.para-selection-image{
+  background-color: rgb(158, 119, 20);
+}
+
