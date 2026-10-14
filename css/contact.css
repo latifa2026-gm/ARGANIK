@@ -64,3 +64,22 @@ body{
    font-size: 20px;
   
 }
+
+.atelier{
+  border: 1px solid black;
+  position: absolute;
+  top: 520px;
+  left: 800px ;
+  font-size: 13px;
+  font-weight: 90px;
+
+}
+.atelier img  {
+  border: 1px solid black;
+  padding: 7px;
+  border-radius: 100%;
+  background-color: #dec495;
+  position: relative;
+   top: 6px;
+  left: 20px;
+}
