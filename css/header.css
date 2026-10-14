@@ -32,9 +32,9 @@
   z-index: 10;
   background-color: #f5eee2;
   border-bottom: 1px solid #E5E7EB;
- 
+ box-shadow: 1px solid  black ;
  }
-nav {
+  header nav {
   margin-left:24%;
   margin-right:80%;
  
@@ -94,7 +94,8 @@ button:focus-visible {
   text-align: center;
   padding: 2px;
   font-size: 13px;
-  margin-top: 10px;
+  margin-top: 0px;
+
 }
 
 .profile{
