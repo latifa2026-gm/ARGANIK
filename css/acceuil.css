@@ -20,7 +20,7 @@
 
 body {
     font-family: var(--font-body);
-    color: #57595b;
+    color: #979a9e;
     background-color: var(--color-white);
     line-height: 1.6;
 }
@@ -33,88 +33,7 @@ a {
 /* Hero Section */
 .hero-section {
     width: 100%;
-    background-color: #F5EEE2;
+    background-color: #e8ac43;
     padding: 50px 20px;
     text-align: center;
-}
-
-.hero-content {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.paragraphe-dessus-titre {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    font-size: 11px;
-    font-weight: 700;
-    color: var(--color-green);
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-}
-
-.coched-cercle {
-    width: 16px;
-    height: 16px;
-}
-
-.title-hero-page {
-    font-family: var(--font-heading);
-    font-size: 40px;
-    color: #1f150c;
-    line-height: 1.2;
-    margin-bottom: 15px;
-}
-
-.title-hero-page span {
-    font-style: italic;
-    font-weight: normal;
-}
-
-.hero-text {
-    font-size: 14px;
-    margin-bottom: 25px;
-}
-
-.hero-cta {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-bottom: 30px;
-}
-
-.btn-principal {
-    background-color: var(--color-green);
-    color: white;
-    padding: 10px 20px;
-    border-radius: 8px;
-    font-weight: bold;
-    font-size: 13px;
-}
-
-.btn-secondaire {
-    border: 1px solid var(--color-green);
-    color: var(--color-green);
-    padding: 10px 20px;
-    border-radius: 8px;
-    font-weight: bold;
-    font-size: 13px;
-}
-
-.list-element {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    font-size: 12px;
-    font-weight: bold;
-    color: var(--color-green);
-}
-
-.list-element li {
-    display: flex;
-    align-items: center;
-    gap: 6px;
 }
