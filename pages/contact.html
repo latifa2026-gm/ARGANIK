@@ -34,10 +34,10 @@
      
       <nav aria-label="Navigation princiale" class="barre">
         <ul class="menu">
-          <li><a href="/ARGANIK/index.html" class="lien-actif">Accueil</a></li> 
+          <li><a href="/ARGANIK/index.html" >Accueil</a></li> 
           <li><a href="#Nos produits">Nos poduits</a></li>
           <li><a href="#Tracabilite">Traçabilité</a></li>
-          <li><a href="#Contact">Contact</a></li>
+          <li><a href="#Contact" class="lien-actif">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -52,19 +52,19 @@
     <p>Commandes directes auprès de nos 60 artisanes, paniers de terroirs personnalisés,
         coffrets de cérémonie ou partenariats professionnels éthiques. Nous mettons un point
         d’honneur à vous répondre avec attention.</p>
-
-
     </div>
 
-    </section>
+    
     <section class="user_info">
       <div>
+        <img src="/assets/icons/edition.svg" class="edition">
       <p>Envoyez-nous un message</p>
       <p>Remplissez ce formulaire pour une commande ou une question spécifique</p>
 
       </div>
     
       <form class="form-info">
+
         <div class="info-Nom">
         <label for="txt"><strong>Nom complet <sup>*</sup></strong></label><br>
         <input id="txt" type="text" placeholder="Ex: Fatima Zahra El Amrani" required>
@@ -88,14 +88,89 @@
        <option>Veuillez choisir une option...</option>
       </select>
 
-      </div> 
+      </div>  
+     <div>
+      <p>Produits souhaités (plusieurs choix possibles)</p>
+      <label for="Huile">Huile d'argan cosmétique bio</label>
+       <input type="checkbox" id="Huile" required>
+      <label for="argan">Huile d'argan culinaire torréfiée</label>
+        <input type="checkbox" id="argan" required>
+      <label for="Huile">Amlou traditionnel aux amandes</label>
+        <input type="checkbox" id="Huile" required>
+      <label for="Huile">Miel pur d'oranger & thym du Souss</label>
+        <input type="checkbox" id="Huile" required>
+      <label for="Huile">Savons saponifiés à froid & soins du hammam</label>
+        <input type="checkbox" id="Huile" required>
       
-
-      
-
-        
+   <div class="Message">
+      <label for="Message"><strong><i>Message ou précisions de commande *</i></strong></label><br>
+            <textarea id="Message" name="Message" placeholder="Volumes désirés (litres, coffrets, contenants 100ml ou 250ml), date limite 
+                souhaitée, ou questions spécifiques..."  required></textarea>   
+      <label for="accepte">J'accepte que mes données soient traitées par la coopérative Arganik pour donner
+                suite à ma demande. Vos informations ne sont jamais cédées à des tiers.</label>
+         <input type="checkbox" id="accepte" required>
+      </div>
+      <input type="submit" value="Envoyer ma demande">
       </form>
+      
+     </div> 
+     
     </section>
 
     </section>
+    <div class="atelier">
+      <img src="/assets/icons/boutique.svg" class="boutique">
+      <h1>Atelier & Coopérative</h1>
+      <h2>DOUAR TAGADIRT • SOUSS-MASSA</h2>
+      <img src="/assets/icons/localisation.svg" class="local_icon">
+      <h2>Adresse physique de l'atelier</h2>
+      <p>Coopérative Féminine Arganik<br>
+         Douar Tagadirt, Route d'Imouzzer<br>
+        Région Souss-Massa, 80000 Agadir, Maroc</p>
+      <i class="fa-solid fa-phone"></i><p>Ligne directe atelier</p>
+      <p>+212 (0)5 28 84 92 10</p>
+      <p>WhatsApp Service Client</p>
+      <p>+212 (0)6 61 23 45 67</p>
+      <p>Courriels</p>
+      <p>Informations : contact@arganik-coop.ma
+        Commandes : commandes@arganik-coop.ma</p>
+      <p>Horaires d'accueil & Visites </p>
+      <p> Du lundi au samedi : 08h30 - 18h0</p>
+      <p>Fermé le dimanche et jours de fête religieuse.</p>
+      <div class="Modali">
+        <img src="/assets/icons/livraison.svg" alt="livraison-logo">
+        <img src="/assets/icons/coche-cercle.svg" alt="icons" >
+        <img src="/assets/icons/coche-cercle.svg" alt="icons" >
+        <p>Maroc Express (24h/48h) : Livraison directe à domicile ou en
+           point relais sécurisé via Amana & CTM Messagerie. Suivi en
+           ligne par SMS.</p>
+        <p>International (Europe & Canada) : Emballages isothermes
+          protégés anti-choc avec scellé de garantie. Certificat
+          phytosanitaire et traçabilité coopérative inclus.</p>
+        
+
+      </div>
+      <div class="foire">
+        <p>FOIRE AUX QUESTIONS</p>
+        <h1>Questions fréquentes</h1>
+        <p>Tout ce que vous devez savoir avant de passer commande.</p>
+        <div class="Quels">
+          <div>Quels sont les délais et tarifs de livraison ?</div>
+          <div>Comment conserver au mieux l'huile d'argan cosmétique et culinaire ?</div>
+          <div>Quels moyens de paiement acceptez-vous (en ligne et à la livraison) ?</div>
+          <div>Proposez-vous des tarifs préférentiels pour les commandes en gros ou cadeaux d'entreprise ?</div>
+
+        </div>
+        <div class="WhatsApp">
+          <p>Vous préférez échanger par téléphone ?</p>
+          <p>Notre conseillère coopérative est à votre écoute du lundi au samedi.</p>
+          <div>Démarrer sur WhatsApp</div>
+          <div>Appeler l'atelier</div>
+          
+
+        </div>
+
+      </div>
+    </div>
+  </section>
   </main>
