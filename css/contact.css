@@ -66,20 +66,199 @@ body{
 }
 
 .atelier{
-  border: 1px solid black;
+  border: 1px;
+  border-radius: 13px;
   position: absolute;
   top: 520px;
   left: 800px ;
   font-size: 13px;
   font-weight: 90px;
+  width: 700px;
+  height: 600px;
+  background-color:#dac8a2;
 
 }
-.atelier img  {
-  border: 1px solid black;
+#boutique  {
+  border: 1px ;
   padding: 7px;
   border-radius: 100%;
-  background-color: #dec495;
+  background-color: #dab675;
   position: relative;
-   top: 6px;
+   top: 27px;
+  left: 34px;
+}
+#atelier {
+  position: absolute;
+  font-size: 24px;
+  top: 31px;
+  left: 85px;
+}
+#douar{
+  position: absolute;
+  font-size: 11px;
+  top: 60px;
+  left: 85px;
+  font-size:12px ;
+  color: #e2aa41;
+}
+
+
+
+
+#physique{
+  position: absolute;
+  font-size: 16px;
+  top: 90px;
+  left: 50px;
+}
+#locali{
+   position: absolute;
+  font-size: 20px;
+  top: 86px;
+  left: 17px;
+}
+#Coopérative {
+  position: absolute;
+  font-size: 16px;
+  top: 115px;
+  left: 50px;
+
+}
+#tagadirt{
+  position: absolute;
+  font-size: 16px;
+  top: 137px;
+  left: 50px;
+
+}
+#Région{
+   position: absolute;
+  font-size: 16px;
+  top: 160px;
+  left: 50px;
+
+}
+#phonenum{
+  position: absolute;
+  font-size: 16px;
+  top: 212px;
+  left: 47px;
+
+}
+#lign{
+  position: absolute;
+  font-size: 16px;
+  top: 189px;
+  left: 50px;
+
+}
+.faphoen i{
+  position: absolute;
+  font-size: 16px;
+  top: 190px;
   left: 20px;
 }
+#whatsapp{
+   position: absolute;
+  font-size: 16px;
+  top: 240px;
+  left: 49px;
+
+}
+#phonenum2{
+  position: absolute;
+  font-size: 16px;
+  top: 260px;
+  left: 49px;
+  color: #cd8e1a;
+
+}
+#Courriels{
+  position: absolute;
+  font-size: 16px;
+  top: 280px;
+  left: 49px;
+
+}
+#Informations{
+  position: absolute;
+  font-size: 16px;
+  top: 300px;
+  left: 49px;
+
+}
+#Commandes{
+  position: absolute;
+  font-size: 16px;
+  top: 320px;
+  left: 49px;
+
+}
+#servicecli{
+  position: absolute;
+  
+  top: 260px;
+  left: 197px;
+  width: 18px;
+  color: #856322;
+
+}
+#email_logo{
+  position: absolute;
+  font-size: 16px;
+  top: 280px;
+  left: 20px;
+
+
+}
+
+.whatsapp_mes i{
+  position: absolute;
+  font-size: 16px;
+  top: 240px;
+  left: 20px;
+
+
+}
+.Horaires_ {
+  position: absolute;
+  font-size: 16px;
+  top: 400px;
+  left: 45px;
+  border: 1px ;
+  width: 450px;
+  height: 100px;
+  background-color: #c7b083;
+  border-radius: 12px;
+
+}
+#icon_hor{
+position: absolute;
+top: 9px;
+left: 6px;
+
+
+}
+#Hor_d_a{
+ position:absolute;
+ top: 10px;
+ left: 36px;
+ font-size: 17px;
+
+}
+#dulundi{
+  position:absolute;
+ top: 35px;
+ left: 36px;
+ font-size: 17px;
+
+}
+#ferme{
+  position: absolute;
+ top:55px;
+ left: 36px;
+}
+
+/* .container {
+  background-image: none;
+}    */
