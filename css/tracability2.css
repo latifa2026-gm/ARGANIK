@@ -41,7 +41,7 @@
   margin: 0px 300px;
   padding: 25px;
   border-radius: 25px;
-  box-shadow: 20px 20px 20px  grey;
+  box-shadow:  2px 2px 6px #80808057;
 }
 .head_card {
   display: flex;
@@ -140,20 +140,32 @@
 /* section2 */
 .steps {
   background-color: #f2ede3;
-  padding: 100px 0;
+  padding: 70px 0 100px 0;
 }
 .intro_steps {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 50px 100px;
+  line-height: 1.6;
+}
+.intro_steps h5{
+  color: #7a5b08;
+}
+.intro_steps h2{
+  font-size: xxx-large;
+  color: #1b3323;
 }
 .intro_steps p {
+  color: #484c46;
   text-align: center;
+  font-size: 1.2em;
+  padding:  0px 15%;
 }
 .story {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-template-rows:repeat(2, 1fr); ;
   gap: 1%;
 }
 .story_image_impair {
@@ -161,30 +173,96 @@
   justify-content: center;
 }
 .story_image_impair img {
+  position: relative;
   width: 80%;
   border-radius: 25px;
 }
+.story_image_impair p{
+  color: white;
+  box-sizing: content-box;
+  padding: 10px;
+  position: absolute;
+  left:55%;
+  font-weight: bold;
+  background-color: #1b3323;
+  border-radius: 100%;
+}
 .story_paragraph_impair {
+  line-height: 1.8;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  text-align: right;
   justify-content: center;
   margin-left: 10%;
+}
+.story_paragraph_impair h6{
+    background-color: #caead5;
+    border-radius: 25px;
+    padding: 0 15px;
+    color: #1b3323;
+}
+.story_paragraph_impair h6{
+  color: #1b3323;
+}
+.story_paragraph_impair p{
+  color: #434842;
+}
+.story_paragraph_impair .p-icon{
+  display: flex;
+  justify-content: center;
+  color: #836517;
+  font-size: 0.8em;
+  font-weight: bold;
 }
 .story_image_pair {
   display: flex;
   justify-content: center;
 }
 .story_image_pair img {
+position: relative;
   width: 80%;
   border-radius: 25px;
 }
+
+.story_image_pair p{
+    color: white;
+  box-sizing: content-box;
+  padding: 10px;
+  position: absolute;
+  left:42%;
+  font-weight: bold;
+  background-color: #1b3323;
+  border-radius: 100%;
+}
+
 .story_paragraph_pair {
+  line-height: 1.8;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  text-align: left;
   justify-content: center;
   margin-left: 10%;
+}
+.story_paragraph_pair h6{
+    background-color: #caead5;
+    border-radius: 25px;
+    padding: 0 15px;
+    color: #1b3323;
+}
+.story_paragraph_pair h6{
+  color: #1b3323;
+}
+.story_paragraph_pair p{
+  color: #434842;
+}
+.story_paragraph_pair .p-icon{
+  display: flex;
+  justify-content: center;
+  color: #836517;
+  font-size: 0.8em;
+  font-weight: bold;
 }
 
 /* section3 */
@@ -201,7 +279,7 @@
 .header_cooperative_title {
   width: 150%;
 }
-.header_cooperative_title h6{
+.header_cooperative_title h5{
     font-family: "Plus Jakarta Sans", sans-serif;
     color: #7c5d0b;
 }
@@ -253,15 +331,22 @@
 
 }
 .card-pied {
+  display: flex;
+  justify-content: left;
   align-items: center;
   font-size: small;
+  margin: 20px 0 0 0 ;
   
   
 }
 
 /* section4 */
 .entete_certification {
+  line-height: 1.6;
   text-align: center;
+}
+.entete_certification h5{
+  color:#836517; ;
 }
 .conteneur-certifications {
   display: flex;
@@ -269,16 +354,16 @@
 }
 .certification {
   padding: 50px;
-  background-color: #f2ebdd;
+  background-color: #fff8eb;
 }
 .entete_certification {
   padding-bottom: 30px;
 }
 .card-certif {
-  background-color: #dcd2bb;
+  background-color: #fbf3e6;
   /* text-align: center; */
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -289,12 +374,23 @@
 .card-certif > *{
     padding: 10px;
 }
+.card-certif h4{
+  font-size: large;
+  color: #1b3323;
+}
 .card-certif p{
     text-align: center;
+    font-size: small;
+    color: #1b3323;
 }
 .card-certif img {
   box-sizing: content-box;
   background-color: #c4f7ca;
   border-radius: 25px;
-  padding: 5px;
+  padding: 10px;
+}
+.card-certif .product-trust{
+  color: #7c5d0b;
+  font-weight: bold;
+  font-size:0.8em ;
 }
