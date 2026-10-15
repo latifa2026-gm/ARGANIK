@@ -69,6 +69,11 @@
   border-radius: 15px;
   padding: 5px;
 }
+.qr input{
+  width: 100%;
+  border:none;
+  outline:none;
+}
 .qr img{
   margin-right: 10px;
 }
