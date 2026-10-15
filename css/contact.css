@@ -4,10 +4,12 @@
   padding: 0;
 }
 body{
-  background:#f4f0e7;
+  background:#fbbe23;
+  
 }
 .main{
   margin: 2%;
+  
 }
 
 .p1 {
@@ -66,14 +68,16 @@ body{
 }
 
 .atelier{
+  
   border: 1px;
+  
   border-radius: 13px;
   position: absolute;
   top: 520px;
   left: 800px ;
   font-size: 13px;
   font-weight: 90px;
-  width: 700px;
+  width: 500px;
   height: 600px;
   background-color:#dac8a2;
 
@@ -247,7 +251,7 @@ left: 6px;
 
 }
 #dulundi{
-  position:absolute;
+position:absolute;
  top: 35px;
  left: 36px;
  font-size: 17px;
@@ -258,6 +262,19 @@ left: 6px;
  top:55px;
  left: 36px;
 }
+
+  
+
+  #googlemaps{
+  margin-left: -33px;
+  margin-right: 34px;
+  border: 1px solid;
+  position: absolute;
+  top:620px; 
+  left: 1px;
+  width: 530px;
+  height: 290px;
+} 
 
 /* .container {
   background-image: none;
