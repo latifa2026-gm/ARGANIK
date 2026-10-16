@@ -1,4 +1,5 @@
 .tracability {
+  width: 100%;
   margin: 0;
   padding: 0;
   /* font-family: "Playfair Display", serif; */
@@ -14,17 +15,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px 100px;
+  padding: 50px;
 }
 .intro_auth p {
   text-align: center;
   color: #474c45;
-  margin: 10px 200px ;
+  margin: 10px 15% ;
 }
 .intro_auth h2{
     font-family: "Playfair Display", serif;
     color: #1b3323;
-    font-size: xx-large;
+    font-size: 2em;
     margin: 10px ;
 }
 .floating {
@@ -37,9 +38,10 @@
   align-items: center;
 }
 .auth_Card {
+  width: 50%;
   background-color: #fff8eb;
-  margin: 0px 300px;
-  padding: 25px;
+  margin: 0 auto;
+  padding: 25px; 
   border-radius: 25px;
   box-shadow:  2px 2px 6px #80808057;
 }
@@ -93,6 +95,7 @@
   align-items: center;
 }
 .card_details {
+  width: 100%;
   background-color: #fbf3e6;
   border-radius: 5px;
   padding: 20px;
@@ -153,7 +156,8 @@
   color: #7a5b08;
 }
 .intro_steps h2{
-  font-size: xxx-large;
+  font-size: 2em;
+  text-align: center;
   color: #1b3323;
 }
 .intro_steps p {
@@ -163,10 +167,12 @@
   padding:  0px 15%;
 }
 .story {
+  /* width: 100vw; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows:repeat(2, 1fr); ;
+  grid-template-rows: repeat(3,1fr); 
   gap: 1%;
+
 }
 .story_image_impair {
   display: flex;
@@ -312,6 +318,7 @@ position: relative;
   width: 100%;
 }
 .card-entete {
+  width: 100%;
   display: flex;
   gap: 2%;
   padding: 8px;
@@ -319,6 +326,7 @@ position: relative;
   gap: 30%;
 }
 .card-surname{
+    width: 100%;
     padding: 8px;
     line-height: 1.5;
 }
@@ -393,4 +401,28 @@ position: relative;
   color: #7c5d0b;
   font-weight: bold;
   font-size:0.8em ;
+}
+/* mobile */
+@media (max-width: 600px){
+  .authentification {
+    padding-bottom: 70px;
+}
+  .auth_Card{
+    width: 80%;
+  }
+  .detail_title h6{
+    font-size: 0.6em;
+  }
+  .card_details{
+    font-size: 0.8em ;
+  }
+  .steps{
+    font-size: 0.8em ;
+    padding: 50px 0 100px 0;
+  }
+}
+
+/* tablette */
+@media (min-width: 600px){
+
 }
