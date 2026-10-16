@@ -335,6 +335,158 @@ font-size: 20px;
 
 
 }
+.deformulaire{
+  position: absolute;
+  border: 1px solid;
+  top: 520px;
+  height: 1000px;
+  width: 670px;
+  left: 70px;
+  
+}
+.Envoyer{
+  position: absolute;
+  border: 1px solid;
+  left: 40px;
+  top: 37px;
+  width: 600px;
+  height: 76px;
+}
+#imgico{
+  position: absolute;
+  top: 11px;
+  left: 550px;
+  width: 34px;
+
+
+}
+#envoyeznous{
+position: absolute;
+  top: 11px;
+  left: 18px;
+  font-size: 30px;
+  
+
+}
+#remplissez{
+  position: absolute;
+  top: 51px;
+  left: 18px;
+}
+#nom_complet{
+  position:absolute;
+  top:150px;
+  left: 40px;
+}
+.txt_nom{
+  border: 1px;
+   position:absolute;
+  top:180px;
+  left: 40px;
+  width: 600px;
+  height: 40px;
+  border-radius: 10px;
+}
+.txt_nom::placeholder{
+  position: absolute;
+  left: 20px;
+}
+
+#lableemail{
+   position: absolute;
+  left: 40px;
+  top:250px;
+
+}
+.txt_email{
+  position: absolute;
+   border: 1px; 
+  left: 40px;
+  top:280px;
+  width: 280px;
+  height: 40px;
+  border-radius: 10px;
+
+}
+#lablephone{
+  position: absolute;
+  left:360px;
+  top:250px;
+  
+
+}
+.phone_lab{
+   position: absolute;
+   border: 1px;
+  left:   360px;
+  top:280px;
+  width: 280px;
+  height: 40px;
+  border-radius: 10px;
+
+}
+#nousrepons{
+  position: absolute;
+top: 325px;
+left: 61px;
+}
+#indicatif{
+  position:absolute;
+  top: 325px;
+  left: 357px;
+
+}
+#horloge_ico{
+  position:absolute;
+  top: 323px;
+  left: 40px;
+  width:15px;
+  height: 20px;
+
+}
+.txt_email::placeholder{
+  position: absolute;
+  left: 20px;
+}
+.phone_lab::placeholder{
+  position: absolute;
+  left: 20px;
+}
+.ville{
+  position:absolute;
+  top:370px;
+  left: 40px;
+}
+.villeinput{
+   border: 1px;
+   position:absolute;
+  top:396px;
+  left: 40px;
+  width: 600px;
+  height: 40px;
+  border-radius: 10px;
+}
+.villeinput::placeholder{
+  position: absolute;
+  left: 20px;
+}
+.lable_typ_demande{
+   position:absolute;
+  top:460px;
+  left: 40px;
+
+}
+#type_de_demande{
+  border: 1px;
+   position:absolute;
+  top:490px;
+  left: 40px;
+  width: 600px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+
 
 /* .container {
   background-image: none;
