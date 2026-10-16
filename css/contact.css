@@ -4,7 +4,7 @@
   padding: 0;
 }
 body{
-  background:#fbbe23;
+  background:#e9cd88;
   
 }
 .main{
@@ -266,15 +266,75 @@ position:absolute;
   
 
   #googlemaps{
-  margin-left: -33px;
+  margin-left: -7px;
   margin-right: 34px;
-  border: 1px solid;
+  border: 1px ;
   position: absolute;
   top:620px; 
   left: 1px;
   width: 530px;
   height: 290px;
+  border-radius: 15px;
 } 
+.ship{
+  border: 1px ;
+  margin-top: 890px;
+  margin-left: -7px;
+  width: 530px;
+  height: 200px;
+  background-color: #d5c59b;
+  border-radius: 10px;
+  
+}
+#livrii_ship{
+  position: absolute;
+ top:960px;
+ left: 9px;
+ 
+}
+ #shiptitle {
+  position: absolute;
+ top:960px;
+ left: 40px;
+font-size: 20px;
+ }
+
+
+
+#coshe1{
+  position: absolute;
+ top:1000px;
+ left: 9px;
+
+
+}
+#coshe2{
+  position: absolute;
+ top:1060px;
+ left: 9px;
+
+
+}
+#maroc-express{
+  position: absolute;
+ top:1000px;
+ left: 36px;
+ font-size: 17px;
+}
+#directe{
+  font-size: 16px;
+}
+#emballages{
+  font-size:16px; 
+}
+#item-international{
+  position: absolute;
+ top:1060px;
+ left: 36px;
+ font-size:17px;
+
+
+}
 
 /* .container {
   background-image: none;
