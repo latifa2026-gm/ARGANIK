@@ -5,8 +5,6 @@ footer{
   font-family: "Plus Jakarta Sans", sans-serif;
   color: #57595b;
   font-size: 12px;
-}
-footer {
   padding: 30px 40px;
   background-color: #efe9e3;
 }
@@ -17,13 +15,13 @@ footer .footer_top {
   /* grid-template-columns: 2fr 1.5fr 1fr 2fr; */
   gap: 1%;
   line-height: 1.8;
-}
-footer h3 {
   margin: 20px;
   font-family: "Playfair Display", serif;
   font-size: x-large;
   color: #1f150c;
 }
+
+
 footer .title {
   display: flex;
   align-items: center;
@@ -36,10 +34,6 @@ footer .title p {
   color: #60241e;
   font-weight: bold;
 }
-footer h6 {
-  color: #8b5e3c;
-}
-
 footer .presentation_time h6 {
   margin: 10px 0px 5px 0px;
 }
@@ -52,10 +46,12 @@ footer .infos {
   display: flex;
 }
 footer .contact_icons img {
+
   background-color: #faf9ee;
   border-radius: 100%;
   padding: 5px;
 }
+
 footer .labels {
   display: flex;
   justify-content: space-around;
@@ -79,6 +75,9 @@ footer .footer_bottom {
   justify-content: space-around;
   font-style: bold;
 }
+
+
+
 footer .nav_footer {
   list-style: none;
 }
@@ -86,12 +85,16 @@ footer .sign_button {
   display: grid;
 }
 footer input {
+
   border-radius: 8px;
   padding: 8px;
   margin-bottom: 7px;
   border: none;
 }
+
+
 footer button {
+
   background-color: #283f24;
   color: white;
   cursor: pointer;
