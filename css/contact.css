@@ -485,7 +485,43 @@ left: 61px;
   height: 40px;
   border-radius: 10px;
 }
+.huildiv{
+  position:absolute;
+  height: 40px;
+  border: solid 1px;
+  width:280px ;
 
+  top:600px;
+  left: 40px;
+
+  height: 40px;
+  border-radius: 10px;
+  background-color: #efe0bf;
+
+}
+
+#huile{
+  
+
+}
+.arganlab{
+
+}
+#argan{
+
+}
+.amloulab{
+
+}
+#amlou{
+
+}
+.miellab{
+  
+}
+#miel{
+  
+}
 
 
 /* .container {
