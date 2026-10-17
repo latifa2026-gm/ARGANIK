@@ -115,7 +115,7 @@ ul {
   border-radius: 100%;
   position: absolute;
   top: -5px;
-  left: 1200px;
+  right: 0;
   border: #a3cfb4 solid 2px;
 }
 .profile button {
