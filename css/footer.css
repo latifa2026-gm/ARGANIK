@@ -51,9 +51,10 @@ footer .infos {
   display: flex;
 }
 footer .contact_icons img {
+  box-sizing: content-box;
   background-color: #faf9ee;
   border-radius: 100%;
-  padding: 5px;
+  padding: 10px;
 }
 footer .labels {
   display: flex;
@@ -68,7 +69,7 @@ footer .labels {
 
 footer .contact_icons {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   margin-top: 8px;
   gap: 5px;
 }
