@@ -403,6 +403,10 @@ body {
 }
 /* mobile */
 @media (max-width: 600px) {
+  /* .authentification{
+    width: 100%;
+    background-color: red;
+  } */
   /* section1 */
   .authentification {
     padding-bottom: 70px;
@@ -440,14 +444,27 @@ body {
   .conteneur-cooperative_cards {
     display: block;
   }
+  .cooperatrice{
+    display: flex;
+    width: 500px ;
+  height: auto;
+  font-size: 1.5em;
+  }
+  .coop-img {
+  background-size: cover;
+  border-radius: 10px;
+  height: 60%;
+  width: 100%;
+}
+
   /* section4 */
   .conteneur-certifications {
     display: flex;
     flex-direction: column;
     gap: 30px;
   }
+  
+/* tablette */
 }
 
-/* tablette */
-@media (min-width: 600px) {
-}
+
