@@ -402,11 +402,7 @@ body {
   font-size: 0.8em;
 }
 /* mobile */
-@media (max-width: 600px) {
-  /* .authentification{
-    width: 100%;
-    background-color: red;
-  } */
+@media (min-width: 600px) {
   /* section1 */
   .authentification {
     padding-bottom: 70px;
@@ -438,24 +434,27 @@ body {
   /* section3 */
   .header_cooperative {
     padding: 40px;
-    display: block;
+    display: flex;
+    flex-direction: column;
     gap: 10%;
   }
   .conteneur-cooperative_cards {
-    display: block;
-  }
-  .cooperatrice{
     display: flex;
-    width: 500px ;
-  height: auto;
-  font-size: 1.5em;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cooperatrice {
+    display: flex;
+    width: 500px;
+    height: auto;
+    font-size: 1.5em;
   }
   .coop-img {
-  background-size: cover;
-  border-radius: 10px;
-  height: 60%;
-  width: 100%;
-}
+    background-size: cover;
+    border-radius: 10px;
+    height: 60%;
+    width: 100%;
+  }
 
   /* section4 */
   .conteneur-certifications {
@@ -463,8 +462,70 @@ body {
     flex-direction: column;
     gap: 30px;
   }
-  
-/* tablette */
 }
+/* tablette */
+@media (max-width: 600px) {
+  .authentification {
+    background-color: #fbebe6;
+    padding-bottom: 50px;
+}
+  .intro_auth {
+    padding: 25px;
+  }
+  .intro_auth h2 {
+    text-align: center;
+  }
+  .intro_auth p {
+    text-align: center;
+    color: #474c45;
+    margin: 10px 5%;
+  }
+  .auth_Card {
+    width: 80%;
+    background-color: #fff8eb;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 6px #80808057;
+  }
 
-
+  
+  .head_card {
+    font-size: 0.7em;
+  }
+  .searchingBar {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .searchingBar button {
+    padding: 5px ;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    font-size: 0.7em;
+  }
+  .searchingBar button img{
+    width:20px ;
+    height: 20px;
+  }
+  /* adjustement of the card below searching bar to adapt to phone(but hidden it because it take a lot of space) */
+  /* .detailsHead {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 0.5;
+}
+.detail {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+    gap: 10px;
+    font-size: 0.3;
+} */
+.card_details{
+  display: none;
+}
+}
