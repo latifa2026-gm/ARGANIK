@@ -274,7 +274,7 @@ a {
 
 .section-badge {
   display: inline-flex;
-  align-items: center;
+  /* align-items: center; */
   gap: 6px;
   color: var(--color-accent);
   font-size: 12px;
