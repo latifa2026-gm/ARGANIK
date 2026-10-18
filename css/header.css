@@ -43,14 +43,7 @@
  
  
 
-.en-tete {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  background-color: #f5eee2;
-  border-bottom: 1px solid #e5e7eb;
-  
-}
+
 header nav {
   margin: 0;
 }
@@ -126,6 +119,8 @@ ul {
 
 @media (max-width: 600px){
   .conteneur-ente-contenu {
+    position:fixed;
+
     display: flex;
     flex-direction: column;
     align-items: center;
