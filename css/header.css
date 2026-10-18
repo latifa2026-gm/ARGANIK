@@ -14,7 +14,7 @@ button:focus-visible {
   outline-offset: 2px;
 }
 
-/* ---------- Header (stays at the top when scrolling) ---------- */
+
 
 .en-tete {
   position: sticky;
@@ -26,12 +26,12 @@ button:focus-visible {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-/* buttons do not inherit the font by default */
+
 .en-tete button {
   font-family: inherit;
 }
 
-/* ----- Green bar at the top ----- */
+
 
 #liv {
   color: #f5eee2;
@@ -41,10 +41,9 @@ button:focus-visible {
   font-size: 13px;
 }
 
-/* ----- Logo, menu and profile ----- */
 
-/* 3 columns: logo on the left, menu in the middle, profile on the right.
-   "grid-template-areas" gives each part its place, whatever the HTML order. */
+
+
 .conteneur-ente-contenu {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
@@ -116,7 +115,7 @@ button:focus-visible {
 
 .profile button {
   position: relative;
-  order: -1; /* puts the cart before the avatar */
+  order: -1;
   background: none;
   border: none;
   font-size: 18px;
@@ -124,7 +123,7 @@ button:focus-visible {
   cursor: pointer;
 }
 
-/* small round number on the cart */
+
 .cart_count {
   position: absolute;
   top: -6px;
@@ -142,18 +141,18 @@ button:focus-visible {
   font-weight: 700;
 }
 
-/* ---------- Responsive ---------- */
 
-/* Tablet: tighter links */
+
+
 @media (max-width: 1024px) {
   .menu a {
     padding: 8px 12px;
   }
 }
 
-/* Mobile: logo and profile on the first row, menu on its own row below */
+
 @media (max-width: 768px) {
-  /* a tall sticky header would hide too much of a phone screen */
+  
   .en-tete {
     position: static;
   }
@@ -177,7 +176,7 @@ button:focus-visible {
   }
 }
 
-/* Small phones: smaller text so the 4 links fit on one line */
+
 @media (max-width: 480px) {
   #liv {
     font-size: 11px;
