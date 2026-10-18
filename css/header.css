@@ -49,17 +49,33 @@
 header nav {
   margin: 0;
 }
-a:focus-visible,
-button:focus-visible {
-  outline: 3px solid #2f4a3a;
-  outline-offset: 2px;
+
+/* ----- Logo, menu and profile ----- */
+
+/* 3 columns: logo on the left, menu in the middle, profile on the right.
+   "grid-template-areas" gives each part its place, whatever the HTML order. */
+.conteneur-ente-contenu {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-areas: "logo nav profile";
+  align-items: center;
+  padding: 10px 3%; /* same side space as the page content */
 }
 
-ul {
-  list-style: none;
+.logoo {
+  grid-area: logo;
+  justify-self: start;
 }
-.menu li {
-  list-style: none;
+
+.logo {
+  display: block;
+  width: 120px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.barre {
+  grid-area: nav;
 }
 
 .menu {
@@ -87,19 +103,8 @@ ul {
 .menu .lien-actif {
   color: #e8efeb;
   font-weight: 600;
-  border: #2f4a3a;
   background-color: #2f4a3a;
   border-radius: 10px;
-}
-
-#liv {
-  color: #f5eee2;
-  background-color: #2f4a3a;
-  text-align: center;
-  padding: 2px;
-  font-size: 13px;
-  margin-top: 0px;
-
 }
 
 .profile {
@@ -107,12 +112,14 @@ ul {
   align-items: center;
   gap: 12px;
 }
+
 .profile img {
   width: 34px;
   height: 34px;
   border-radius: 100%;
   border: 2px solid #a3cfb4;
 }
+
 .profile button {
   background: none;
   border: none;
