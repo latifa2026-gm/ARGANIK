@@ -732,7 +732,30 @@ left: 61px;
     transform: translateX(-50%); 
     font-size: 30px;
   }
-}
+  .sur{
+    position: absolute;
+           
+    left: 50%;   
+    transform: translateX(-50%); 
+    font-size: 30px;
+
+  }
+  .sur2{
+  position: absolute;
+    top: 50rem;          
+    left: 50%;   
+    transform: translateX(-50%); 
+    font-size: 20px;
+  }
+  .sur3{
+    position: absolute;
+    top: 54%;          
+    left: 50%;   
+    transform: translateX(-50%); 
+    font-size: 20px;
+  }
+  }
+
 
 /* .container {
   background-image: none;
