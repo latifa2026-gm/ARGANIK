@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Accueil - Arganik Coopérative</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/acceuil.css">
+</head>
+<body>
+   <!-- header de notre page  -->
+    <header class="en-tete">
+        <div class="livraison">
+            <p id="liv">Livraison offerte au Maroc dès 300 MAD • Coopérative 100% solidaire et biologique certifiée</p>
+        </div>
+        <div class="conteneur-ente-contenu">
+            <a href="index.html" class="logoo">
+                <img src="../assets/images/logo/arganik-logo.svg" alt="Logo Arganik" class="logo">
+            </a>
+            <nav aria-label="Navigation principale" class="barre">
+                <ul class="menu">
+                    <li><a href="index.html" class="lien-actif">Accueil</a></li>
+                    <li><a href="pages/">Nos produits</a></li>
+                    <li><a href="pages/">Traçabilité</a></li>
+                    <li><a href="pages/">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="profile">
+
+                <button aria-label="Voir le panier">
+
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                    <span class="badge-panier">2</span>
+
+                </button>
+
+                <img src="assets/images/divers/avatar-utilisateur.jpg" alt="Avatar utilisateur">
+
+            </div>
+
+        </div>
+
+    </header> 
+
+    <main>
+        <!-- Section Hero -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <p class="hero-badge">
+                    <img src="assets/icons/certifie.svg" alt="" class="badge-icon" aria-hidden="true">
+                    ARTISANAT D'EXCEPTION &amp; TERROIR DU SOUSS
+                </p>
+
+                <h1 class="hero-title">
+                    L’or du Souss,<br>
+                    <span class="highlight">de nos mains</span> à vos mains.
+                </h1>
+
+                <p class="hero-text">
+                    Huiles d’argan pures, amlou traditionnel et soins botaniques
+                    d'exception confectionnés par plus de 45 artisanes solidaires
+                    réunies au cœur de l'arganeraie marocaine.
+                </p>
+
+                <div class="hero-cta">
+                    <a href="pages/produit.html" class="btn-primary">Découvrir nos produits</a>
+                    <a href="#histoire" class="btn-secondary">
+                        Notre histoire collective
+                        <img src="assets/icons/fleche-droite.svg" alt="" class="btn-icon" aria-hidden="true">
+                    </a>
+                </div>
+
+                <ul class="hero-features">
+                    <li>
+                        <img src="assets/icons/coche-cercle.svg" alt="" aria-hidden="true">
+                        Première pression à froid
+                    </li>
+                    <li>
+                        <img src="assets/icons/coche-cercle.svg" alt="" aria-hidden="true">
+                        100% Biologique &amp; IGP Souss
+                    </li>
+                    <li>
+                        <img src="assets/icons/coche-cercle.svg" alt="" aria-hidden="true">
+                        Commerce Équitable Certifié
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- section chiffres cles et Cartes -->
+        <section class="stats-section">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon-wrapper">
+                        <img src="assets/icons/groupe.svg" alt="" aria-hidden="true">
+                    </div>
+                    <p class="stat-value">45</p>
+                    <h3 class="stat-title">Coopératrices</h3>
+                    <p class="stat-description">
+                        Rémunérées équitablement avec sécurité sociale et formations continues.
+                    </p>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon-wrapper">
+                        <img src="assets/icons/feuille-energie.svg" alt="" aria-hidden="true">
+                    </div>
+                    <p class="stat-value">100%</p>
+                    <h3 class="stat-title">Naturel &amp; Bio</h3>
+                    <p class="stat-description">
+                        Certifié Ecocert et ONSSA, garanti sans solvants ni additifs chimiques.
+                    </p>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon-wrapper">
+                        <img src="assets/icons/pression.svg" alt="" aria-hidden="true">
+                    </div>
+                    <p class="stat-value">&lt; 38°C</p>
+                    <h3 class="stat-title">Pression à Froid</h3>
+                    <p class="stat-description">
+                        Extraction mécanique lente pour préserver antioxydants et vitamine E.
+                    </p>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon-wrapper">
+                        <img src="assets/icons/foret.svg" alt="" aria-hidden="true">
+                    </div>
+                    <p class="stat-value">12</p>
+                    <h3 class="stat-title">Douars Protégés</h3>
+                    <p class="stat-description">
+                        Villages préservés dans la réserve de biosphère UNESCO de l’arganeraie.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- section produits or infos   -->
+<section class="products-section">
+    <div class="container">
+        
+        <!-- Entête de section -->
+        <div class="section-header">
+            <div class="header-text">
+                <p class="section-badge">
+                    <img src="assets/icons/eclair.svg" alt="" class="badge-icon" aria-hidden="true">
+                    SÉLECTION D'EXCEPTION DE LA RÉCOLTE 2024
+                </p>
+                <h2 class="section-title">Nos Nectars &amp; Soins Phares</h2>
+                <p class="section-description">
+                    Chaque flacon est le fruit d'un savoir-faire millénaire, concassé pierre contre pierre et décanté avec patience à Taroudant.
+                </p>
+            </div>
+            <a href="pages/produit.html" class="btn-all-products">Tous nos soins (14)</a>
+        </div>
+
+        <!-- grille des produits -->
+        <div class="products-grid">
+            <!-- Produit 1 -->
+            <article class="product-card">
+                <div class="product-image-wrapper">
+                    <div class="product-tags">
+                        <span class="tag tag-dark">BIO CERTIFIÉ</span>
+                        <span class="tag tag-dark">BEST-SELLER</span>
+                    </div>
+                    <button type="button" class="btn-favorite" aria-label="Ajouter aux favoris">
+                        <img src="assets/icons/favori.svg" alt="" aria-hidden="true">
+                    </button>
+                    <img src="assets/images/produits/huile-argan-cosmetique-01.jpg" alt="Flacon d'huile d'argan pure cosmétique" class="product-image">
+                </div>
+                <div class="product-content">
+                    <div class="product-meta">
+                        <span class="origin-volume">Vallée du Souss • 100 ml</span>
+                        <span class="product-rating"> 4.9 <span class="rating-count">(128)</span></span>
+                    </div>
+                    <h3 class="product-title">Huile d’Argan Pure Cosmétique</h3>
+                    <p class="product-description">Pressée à froid non torréfiée. Hydratation profonde, antioxydante</p>
+
+                    <div class="product-footer">
+                        <div class="price-wrapper">
+                            <span class="price-label">PRIX DIRECT COOPÉRATIVE</span>
+                            <span class="price-value">180 MAD</span>
+                        </div>
+                        <button type="button" class="btn-add-cart" aria-label="Ajouter au panier">
+                            <img src="assets/icons/ajout-panier.svg" alt="" aria-hidden="true">
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Produit 2 -->
+            <article class="product-card">
+                <div class="product-image-wrapper">
+                    <div class="product-tags">
+                        <span class="tag tag-dark">RECETTE ANCESTRALE</span>
+                    </div>
+                    <button type="button" class="btn-favorite" aria-label="Ajouter aux favoris">
+                        <img src="assets/icons/favori.svg" alt="" aria-hidden="true">
+                    </button>
+                    <img src="assets/images/produits/amlou-royal-02.jpg" alt="Pôt d'Amlou Royal aux amandes et miel" class="product-image">
+                </div>
+
+                <div class="product-content">
+                    <div class="product-meta">
+                        <span class="origin-volume">Amandes Beldi • 250 g</span>
+                        <span class="product-rating"> 5.0 <span class="rating-count">(94)</span></span>
+                    </div>
+
+                    <h3 class="product-title">Amlou Royal aux Amandes &amp; Miel d'Oranger</h3>
+                    <p class="product-description">Pâte à tartiner traditionnelle berbère à base d'huile d'argan culinaire...</p>
+
+                    <div class="product-footer">
+                        <div class="price-wrapper">
+                            <span class="price-label">PRIX DIRECT COOPÉRATIVE</span>
+                            <span class="price-value">220 MAD</span>
+                        </div>
+                        <button type="button" class="btn-add-cart" aria-label="Ajouter au panier">
+                            <img src="assets/icons/ajout-panier.svg" alt="" aria-hidden="true">
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Produit 3 -->
+            <article class="product-card">
+                <div class="product-image-wrapper">
+                    <div class="product-tags">
+                        <span class="tag tag-dark">TORRÉFACTION DOUCE</span>
+                    </div>
+                    <button type="button" class="btn-favorite" aria-label="Ajouter aux favoris">
+                        <img src="assets/icons/favori.svg" alt="" aria-hidden="true">
+                    </button>
+                    <img src="assets/images/produits/huile-argan-culinaire-03.jpg" alt="Bouteille d'huile d'argan culinaire" class="product-image">
+                </div>
+
+                <div class="product-content">
+                    <div class="product-meta">
+                        <span class="origin-volume">Arganeraie d'Taroudant • 250 ml</span>
+                        <span class="product-rating"> 4.8 <span class="rating-count">(76)</span></span>
+                    </div>
+
+                    <h3 class="product-title">Huile d’Argan Culinaire Torréfiée</h3>
+                    <p class="product-description">Arômes délicats de noisette grillée. Riche en acides gras essentiels,...</p>
+
+                    <div class="product-footer">
+                        <div class="price-wrapper">
+                            <span class="price-label">PRIX DIRECT COOPÉRATIVE</span>
+                            <span class="price-value">140 MAD</span>
+                        </div>
+                        <button type="button" class="btn-add-cart" aria-label="Ajouter au panier">
+                            <img src="assets/icons/ajout-panier.svg" alt="" aria-hidden="true">
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Produit 4 -->
+            <article class="product-card">
+                <div class="product-image-wrapper">
+                    <div class="product-tags">
+                        <span class="tag tag-grey">SAPONIFIÉ À FROID</span>
+                    </div>
+                    <button type="button" class="btn-favorite" aria-label="Ajouter aux favoris">
+                        <img src="assets/icons/favori.svg" alt="" aria-hidden="true">
+                    </button>
+                    <img src="assets/images/produits/savon-argan-cedre-04.jpg" alt="Savon végétal surgras" class="product-image">
+                </div>
+
+                <div class="product-content">
+                    <div class="product-meta">
+                        <span class="origin-volume">Soin Corporel • 120 g</span>
+                        <span class="product-rating"> 4.9 <span class="rating-count">(52)</span></span>
+                    </div>
+
+                    <h3 class="product-title">Savon Végétal Surgras à l'Argan &amp; Cèdre</h3>
+                    <p class="product-description">Saponifié à froid pour conserver la glycérine végétale native. Nettoie...</p>
+
+                    <div class="product-footer">
+                        <div class="price-wrapper">
+                            <span class="price-label">PRIX DIRECT COOPÉRATIVE</span>
+                            <span class="price-value">65 MAD</span>
+                        </div>
+                        <button type="button" class="btn-add-cart" aria-label="Ajouter au panier">
+                            <img src="assets/icons/ajout-panier.svg" alt="" aria-hidden="true">
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+<section class="section-cooperative">
+  <div class="cooperative-container">
+    
+    <!-- image + carte de la Presidente -->
+    <div class="cooperative-media">
+      <div class="photo-wrapper">
+        <img src="assets/images/accueil/impact-presidente-fatima-zahra.jpg" alt="Fatima-Zahra Ait Oumghar" class="pic-president">
+        
+        <!-- carte d'information sur l'image -->
+        <div class="card-presidente">
+          <div class="icon-wrapper">
+            <img src="assets/icons/groupe.svg" alt="" aria-hidden="true">
+          </div>
+          <div class="info-presidente">
+            <h3 class="name">Fatima-Zahra Ait Oumghar</h3>
+            <p class="name-job">PRÉSIDENTE & MAÎTRESSE ARTISANE</p>
+            <blockquote class="discription-president">
+              « L'arganier n'est pas qu'un arbre : c'est notre liberté, l'école pour nos filles et le garant de la dignité de nos aînées. »
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- textes et liste d'impact -->
+    <div class="cooperative-content">
+      <!-- badge en haut du titre -->
+      <span class="tag-badge">
+        <img src="assets/icons/impact.svg" alt="" aria-hidden="true">
+        IMPACT SOCIAL & ÉMANCIPATION
+      </span>
+
+      <h2 class="titre-descript">Chaque goutte réécrit le destin des femmes du Souss</h2>
+
+      <p class="lead-text">
+        Fondée en 2011 au cœur de l'Anti-Atlas, la coopérative <strong>Arganik</strong> est née d'un refus : celui des intermédiaires qui dévaluaient le travail épuisant des concasseuses de noix.
+      </p>
+
+      <p class="description-text">
+        Aujourd'hui, 100% de la valeur ajoutée reste au village. Les revenus équitables financent la scolarisation des jeunes filles, l'alphabétisation des artisanes et un fonds mutuel d'entraide médicale pour les familles de l'arganeraie.
+      </p>
+
+      <ul class="list-info-cooperative">
+        <li>
+          <img src="assets/icons/coche-cercle.svg" alt="" aria-hidden="true">
+          <span><strong>Autonomie financière directe :</strong> Salaire 2,8 fois supérieur au cours moyen de la cueillette brute.</span>
+        </li>
+        <li>
+          <img src="assets/icons/coche-cercle.svg" alt="" aria-hidden="true">
+          <span><strong>Protection de la biosphère :</strong> Reboisement annuel de plus de 1 200 arganiers endémiques.</span>
+        </li>
+        <li>
+          <img src="assets/icons/coche-cercle.svg" alt="" aria-hidden="true">
+          <span><strong>Transmission des gestes :</strong> Sauvegarde du patrimoine oral et gestuel classé au patrimoine immatériel de l’UNESCO.</span>
+        </li>
+      </ul>
+
+      <a href="#" class="btn-lire">
+        Lire notre rapport d'impact annuel 2024
+        <img src="assets/icons/fleche-droite.svg" alt="" aria-hidden="true" class="fleche">
+      </a>
+    </div>
+
+  </div>
+</section>
+<section class="section-transparence">
+  <!-- Entête de la section -->
+  <header class="section-header">
+    <span class="tag-badge">TRANSPARENCE SANS COMPROMIS</span>
+    <h2 class="section-title">De l'arbre au flacon : Un rituel préservé</h2>
+    <p class="section-description">
+      Découvrez les trois gestes fondateurs qui font la pureté absolue de notre huile d'argan certifiée IGP Souss.
+    </p>
+  </header>
+
+  <!-- cartes des etapes du processus -->
+  <div class="steps-grid">
+    <!-- etape 1 -->
+    <article class="step-card">
+      <div class="card-header">
+        <span class="step-number">01</span>
+        <div class="icon-wrapper">
+          <img src="assets/icons/arbre.svg" alt="" aria-hidden="true">
+        </div>
+      </div>
+      <h3 class="step-title">Récolte Manuelle Sélective</h3>
+      <p class="step-text">
+        Les fruits mûrs tombés naturellement au sol sont récoltés à la main entre juillet et août, sans jamais secouer les branches afin de préserver l'intégrité de l'arbre.
+      </p>
+      <div class="card-footer">
+        <img src="assets/icons/horloge.svg" alt="" aria-hidden="true">
+        <span>Séchage naturel au soleil : 15 jours</span>
+      </div>
+    </article>
+
+    <!-- etape 2 -->
+    <article class="step-card">
+      <div class="card-header">
+        <span class="step-number">02</span>
+        <div class="icon-wrapper">
+          <img src="assets/icons/outils.svg" alt="" aria-hidden="true">
+        </div>
+      </div>
+      <h3 class="step-title">Dépulpage & Concassage Ancestral</h3>
+      <p class="step-text">
+        Chaque noix est fêlée entre deux galets avec une précision millimétrique. L'amande interne est extraite intacte, sans être altérée ni brûlée par des rouleaux industriels.
+      </p>
+      <div class="card-footer">
+        <img src="assets/icons/main.svg" alt="" aria-hidden="true">
+        <span>Savoir-faire 100% féminin manuel</span>
+      </div>
+    </article>
+
+    <!-- etape 3 -->
+    <article class="step-card">
+      <div class="card-header">
+        <span class="step-number">03</span>
+        <div class="icon-wrapper">
+          <img src="assets/icons/goutte.svg" alt="" aria-hidden="true">
+        </div>
+      </div>
+      <h3 class="step-title">Pression Douce & Double Décantation</h3>
+      <p class="step-text">
+        Pressage mécanique à froid à température contrôlée en dessous de 38°C, suivi d'une filtration lente sur papier buvard naturel sans le moindre additif chimique.
+      </p>
+      <div class="card-footer">
+        <img src="assets/icons/coche.svg" alt="" aria-hidden="true">
+        <span>Pureté analytique garantie</span>
+      </div>
+    </article>
+
+  </div>
+
+  <!-- Banderole de Tracabilité (bas de section) -->
+  <div class="traceability-banner">
+    <div class="traceability-info">
+      <div class="qr-icon-container">
+        <img src="assets/icons/qr-code.svg" alt="" aria-hidden="true">
+      </div>
+      <div class="traceability-text">
+        <h4 class="traceability-title">Vérifiez l’origine de votre propre flacon</h4>
+        <p class="traceability-subtext">Saisissez le numéro de lot gravé sur votre étiquette pour géolocaliser l'arbre et découvrir l'artisane.</p>
+      </div>
+    </div>
+    <a href="#" class="btn-traceability">
+      Accéder à l'outil de traçabilité intégrale
+      <span class="arrow"><img src="assets/icons/fleche-droite.svg" alt=""></span>
+    </a>
+  </div>
+</section>
+
+<section class="section-avis">
+  <!-- En-tête de section -->
+  <header class="section-header">
+    <span class="tag-badge">VOIX DE NOTRE COMMUNAUTÉ</span>
+    <h2 class="section-title">Ce que nos clients en disent</h2>
+    <p class="section-description">
+      Particuliers passionnés et chefs cuisiniers témoignent de la pureté incomparable de nos flacons.
+    </p>
+  </header>
+
+  <!-- Grille des avis clients -->
+  <div class="reviews-grid">
+    
+    <!-- Avis 1 -->
+    <article class="review-card">
+      <div class="stars">★★★★★</div>
+      <blockquote class="review-text">
+        « Rien à voir avec les huiles coupées que l’on trouve en grande surface. La texture est soyeuse, pénètre instantanément sans fini gras. Ma peau atopique a retrouvé son équilibre en deux semaines. »
+      </blockquote>
+      <div class="review-author">
+        <div class="avatar avatar-yellow">SL</div>
+        <div class="author-info">
+          <h3 class="author-name">Sophie Lemonnier</h3>
+          <p class="author-details">Bordeaux • Huile d'argan cosmétique</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- Avis 2 -->
+    <article class="review-card">
+      <div class="stars">★★★★★</div>
+      <blockquote class="review-text">
+        « L’amlou d’Arganik est une révélation culinaire. L’équilibre entre la torréfaction des amandes et la douceur du miel d’oranger est parfait. Mes enfants en redemandent tous les matins au petit-déjeuner. »
+      </blockquote>
+      <div class="review-author">
+        <div class="avatar avatar-green">YB</div>
+        <div class="author-info">
+          <h3 class="author-name">Yassine Berrada</h3>
+          <p class="author-details">Casablanca • Amlou Traditionnel</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- Avis 3 -->
+    <article class="review-card">
+      <div class="stars">★★★★★</div>
+      <blockquote class="review-text">
+        « J’ai visité l’atelier d’Agadir cet hiver. Voir ces artisanes fières et dignes perpétuer un geste si beau m’a profondément émue. Commander chez elles, c’est soutenir une cause noble et juste. »
+      </blockquote>
+      <div class="review-author">
+        <div class="avatar avatar-pink">CD</div>
+        <div class="author-info">
+          <h3 class="author-name">Claire Delattre</h3>
+          <p class="author-details">Bruxelles • Coffret Prestige Terroir</p>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+</main>
+    <!-- la partie footer de la page  -->
+    <footer id="Contact">
+        <div class="footer_top">
+            <div class="presentation_time">
+                <div class="title">
+                    <h3>Arganik</h3>
+                    <p>SOUSS TERROIR</p>
+                </div>
+                <p>
+                    Héritage séculaire de la Vallée du Souss. Notre coopérative féminine
+                    perpétue l'extraction artisanale de l'huile d'argan pure certifiée
+                    biologique, garantissant une juste rétribution à plus de 60
+                    artisanes locales.
+                </p>
+                <h6>HORAIRES D'OUVERTURE</h6>
+                <div class="infos">
+                    <img width="18" height="18" src="https://img.icons8.com/material-outlined/24/clock--v1.png"
+                        alt="horloge" />
+                    <p>Lundi - Samedi : 08h30 - 18h00</p>
+                </div>
+            </div>
+
+            <nav class="links">
+                <h5>NAVIGATION & PRODUITS</h5>
+                <ul class="nav_footer">
+                    <li><a href="index.html">Accueil & Coopérative</a></li>
+                    <li><a href="#">Huile d'Argan Cosmétique</a></li>
+                    <li><a href="#">Huile Culinaire Torréfiée</a></li>
+                    <li><a href="#">Amlou Traditionnel aux Amandes</a></li>
+                    <li><a href="#">Savons Purs & Soins Botaniques</a></li>
+                    <li><a href="#">Traçabilité & Cartographie</a></li>
+                    <li><a href="#">Engagements & Impact Féminin</a></li>
+                </ul>
+            </nav>
+
+            <div class="contact">
+                <h5>ATELIER & CONTACT</h5>
+                <div class="infos">
+                    <img src="assets/icons/epingle-carte.svg" width="18" height="18" alt="carte">
+                    <p>Route d'Imouzzer, Région Souss-Massa, Agadir, Maroc</p>
+                </div>
+                <div class="infos">
+                    <img width="18" height="18" src="https://img.icons8.com/forma-bold/24/phone.png" alt="téléphone" />
+                    <p>+212 (0)5 28 84 92 10</p>
+                </div>
+                <div class="infos">
+                    <img src="assets/icons/email.svg" width="18" height="18" alt="email">
+                    <p>contact@arganik-coop.ma</p>
+                </div>
+
+                <div class="contact_icons">
+                    <img width="18" height="18" src="https://img.icons8.com/ios/50/camera--v3.png" alt="instagram" />
+                    <img width="18" height="18" src="https://img.icons8.com/material-sharp/24/earth-planet--v2.png"
+                        alt="web" />
+                    <img width="18" height="18" src="https://img.icons8.com/material-outlined/24/comments--v1.png"
+                        alt="commentaires" />
+                    <img width="18" height="18" src="https://img.icons8.com/windows/32/bookmark-ribbon--v1.png"
+                        alt="favoris" />
+                </div>
+            </div>
+
+            <div class="newsletter">
+                <h5>LETTRE DU TERROIR</h5>
+                <p>
+                    Recevez nos carnets de récolte, nouvelles de la coopérative et
+                    éditions limitées.
+                </p>
+                <div class="sign_button">
+                    <input type="email" placeholder="Votre adresse courriel..." />
+                    <button type="button">S'inscrire</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="labels">
+            <div class="infos">
+                <img src="assets/icons/certifie.svg" width="18" height="18" alt="certifié">
+                <p>CERTIFIÉ BIOLOGIQUE MAROC</p>
+            </div>
+            <div class="infos">
+                <img src="assets/icons/feuille-eco.svg" width="18" height="18" alt="écologique">
+                <p>ECOCERT COSMÉTIQUE NATUREL</p>
+            </div>
+            <div class="infos">
+                <img width="18" height="18" src="https://img.icons8.com/windows/32/group2.png" alt="solidaire" />
+                <p>COMMERCE ÉQUITABLE SOLIDAIRE</p>
+            </div>
+            <div class="infos">
+                <img width="18" height="18" src="https://img.icons8.com/windows/32/warranty.png" alt="igp" />
+                <p>IGP ARGANE DU SOUSS</p>
+            </div>
+        </div>
+
+        <div class="footer_bottom">
+            <p>© 2025 Coopérative Féminine Arganik. Tous droits réservés.</p>
+            <p>Mentions légales</p>
+            <p>Politique de confidentialité</p>
+            <p>Conditions de vente</p>
+        </div>
+    </footer>
+</body>
+</html>

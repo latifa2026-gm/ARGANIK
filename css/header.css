@@ -1,20 +1,42 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+.conteneur-ente-contenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 0 40px;
+  text-decoration: none;
+  background-color: #f5eee2;
+  border: 1px ;
+  box-shadow:0px 0px 5px 0px rgb(185, 175, 175);
+  
 }
 
-ul {
-  list-style: none;
+.en-tete-contenu {
+  display: flex;
+  align-items: center;
+  padding: 10px 40px;
+  height: 70px;
 }
 
-a:focus-visible,
-button:focus-visible {
-  outline: 3px solid #2f4a3a;
-  outline-offset: 2px;
-}
+.logo {
+  margin-top: -8px;
+  margin-left: 40px;
 
-/* ---------- Header (stays at the top when scrolling) ---------- */
+  width: 120px;
+  height: 60px;
+}
+ .en-tete {
+  
+  position:sticky;
+  top: 0px;
+  
+  z-index: 10;
+  background-color: #f5eee2;
+  border-bottom: 1px solid #E5E7EB;
+ box-shadow: 1px solid  rgb(183, 121, 121) ;
+ }
+ 
+ 
 
 .en-tete {
   position: sticky;
@@ -22,22 +44,10 @@ button:focus-visible {
   z-index: 10;
   background-color: #f5eee2;
   border-bottom: 1px solid #e5e7eb;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  
 }
-
-/* buttons do not inherit the font by default */
-.en-tete button {
-  font-family: inherit;
-}
-
-/* ----- Green bar at the top ----- */
-
-#liv {
-  color: #f5eee2;
-  background-color: #2f4a3a;
-  text-align: center;
-  padding: 6px 10px;
-  font-size: 13px;
+header nav {
+  margin: 0;
 }
 
 /* ----- Logo, menu and profile ----- */
@@ -98,96 +108,38 @@ button:focus-visible {
 }
 
 .profile {
-  grid-area: profile;
-  justify-self: end;
-  display: flex;
+   display: flex;
   align-items: center;
-  gap: 18px;
+  gap: 12px;
 }
 
 .profile img {
   width: 34px;
   height: 34px;
   border-radius: 100%;
-  object-fit: cover;
-  border: #a3cfb4 solid 2px;
+  border: 2px solid #a3cfb4;
 }
 
 .profile button {
-  position: relative;
-  order: -1; /* puts the cart before the avatar */
   background: none;
   border: none;
-  font-size: 18px;
-  color: #2f4a3a;
-  cursor: pointer;
 }
 
-/* small round number on the cart */
-.cart_count {
-  position: absolute;
-  top: -6px;
-  right: -9px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  background-color: #2f4a3a;
-  color: #f5eee2;
-  font-family: inherit;
-  font-size: 10px;
-  font-weight: 700;
-}
 
-/* ---------- Responsive ---------- */
-
-/* Tablet: tighter links */
-@media (max-width: 1024px) {
-  .menu a {
-    padding: 8px 12px;
-  }
-}
-
-/* Mobile: logo and profile on the first row, menu on its own row below */
-@media (max-width: 768px) {
-  /* a tall sticky header would hide too much of a phone screen */
-  .en-tete {
-    position: static;
-  }
-
+@media (max-width: 600px){
   .conteneur-ente-contenu {
-    grid-template-columns: 1fr auto;
-    grid-template-areas:
-      "logo profile"
-      "nav nav";
-    row-gap: 12px;
-    padding: 10px 5% 14px;
-  }
-
-  .logo {
-    width: 100px;
-    height: 44px;
-  }
-
-  .barre {
-    justify-self: center;
-  }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 40px;
+    text-decoration: none;
+    background-color: #f5eee2;
+    border: 1px;
+    box-shadow: 0px 0px 5px 0px rgb(185, 175, 175);
 }
-
-/* Small phones: smaller text so the 4 links fit on one line */
-@media (max-width: 480px) {
-  #liv {
-    font-size: 11px;
-  }
-
-  .menu {
-    gap: 2px;
-  }
-
-  .menu a {
-    padding: 6px 10px;
-    font-size: 13px;
-  }
+.menu {
+    margin: 5px;
+}
 }
