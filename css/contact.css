@@ -4,7 +4,7 @@
   padding: 0;
 }
 body{
-  background:#e9cd88;
+  background:#F5EEE2;
   
 }
 .main{
@@ -74,12 +74,12 @@ body{
   border-radius: 13px;
   position: absolute;
   top: 520px;
-  left: 800px ;
+  left: 750px ;
   font-size: 13px;
   font-weight: 90px;
   width: 500px;
   height: 600px;
-  background-color:#dac8a2;
+  background-color:#ebe2d0;
 
 }
 #boutique  {
@@ -228,7 +228,7 @@ body{
   position: absolute;
   font-size: 16px;
   top: 400px;
-  left: 45px;
+  left: 30px;
   border: 1px ;
   width: 450px;
   height: 100px;
@@ -266,20 +266,20 @@ position:absolute;
   
 
   #googlemaps{
-  margin-left: -7px;
-  margin-right: 34px;
+  margin-left: -10px;
+  margin-right: 20px;
   border: 1px ;
   position: absolute;
   top:620px; 
-  left: 1px;
-  width: 530px;
+  left: -1px;
+  width: 510px;
   height: 290px;
   border-radius: 15px;
 } 
 .ship{
   border: 1px ;
   margin-top: 890px;
-  margin-left: -7px;
+  margin-left: -30px;
   width: 530px;
   height: 200px;
   background-color: #d5c59b;
@@ -337,16 +337,19 @@ font-size: 20px;
 }
 .deformulaire{
   position: absolute;
-  border: 1px solid;
+  border: 1px ;
+  background-color: #ebe2d0;
   top: 520px;
   height: 1000px;
   width: 670px;
-  left: 70px;
-  
+  left: 20px;
+  border-radius: 10px;
 }
 .Envoyer{
   position: absolute;
-  border: 1px solid;
+  border: 1px;
+  background-color: #F5EEE2;
+  border-radius: 8px;
   left: 40px;
   top: 37px;
   width: 600px;
@@ -436,6 +439,7 @@ left: 61px;
   left: 357px;
 
 }
+  
 #horloge_ico{
   position:absolute;
   top: 323px;
@@ -485,48 +489,238 @@ left: 61px;
   height: 40px;
   border-radius: 10px;
 }
-.huildiv{
-  position:absolute;
-  height: 40px;
-  border: solid 1px;
-  width:280px ;
-
-  top:600px;
+#produits_p {
+  position: absolute;
+  top: 555px;
   left: 40px;
+  font-size: 14px;
+}
 
-  height: 40px;
+
+.produits_flex {
+  position: absolute;
+  top: 590px;
+  left: 40px;
+  width: 600px; 
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 14px;
+}
+
+
+.huildiv {
+  display: flex;
+  align-items: center; 
+  gap: 10px;
+  width: 293px; 
+  height: 48px;
+  padding: 0 16px;
+  background-color: #ffffff;
   border-radius: 10px;
-  background-color: #efe0bf;
-
+  font-size: 14px;
 }
 
-#huile{
-  
 
+#savon_fl {
+  width: 100%;
 }
-.arganlab{
 
-}
-#argan{
 
-}
-.amloulab{
-
-}
-#amlou{
-
-}
-.miellab{
-  
-}
-#miel{
+.huildiv input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
   
 }
 .fotme{
   position:absolute;
-    top: 2500px
+    top: 2500px;
+}
+.deformulaire {
+  height: 1120px;
 }
 
+#msg_label {
+  position: absolute;
+  top: 795px;
+  left: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #2b231d;
+}
+
+#msg_label span {
+  color: #a65d2e;
+}
+
+
+#Message {
+  position: absolute;
+  top: 825px;
+  left: 40px;
+  width: 600px;
+  height: 120px;
+  padding: 16px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  resize: none; 
+}
+
+
+#accepte {
+  position: absolute;
+  top: 970px;
+  left: 40px;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+#accepte_label {
+  position: absolute;
+  top: 967px;
+  left: 65px;
+  width: 560px;
+  font-size: 13px;
+  color: #5c5346;
+  line-height: 1.5;
+}
+
+
+#sub_btn {
+  position: absolute;
+  top: 1030px;
+  left: 40px;
+  width: 260px;
+  height: 48px;
+  background-color: #2e4638; 
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; 
+}
+.foire {
+  position: absolute;
+  top: 1200px; 
+  left: 250px;
+  width: 100%;
+  text-align: center; 
+}
+
+
+.foire_sous_titre {
+  font-size: 12px;
+  font-weight: 700;
+  color: #856322;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.foire_titre {
+  font-size: 40px;
+  color: #1d3528;
+  margin-bottom: 10px;
+}
+
+
+.foire_desc {
+  font-size: 15px;
+  color: #5c5346;
+  margin-bottom: 35px;
+}
+
+
+.Quels {
+  display: flex;
+  flex-direction: column; 
+  gap: 16px; 
+  width: 820px;
+  margin: 0 auto; 
+}
+
+.question_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  background-color: #e4e7eb;
+  padding: 22px 28px;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #1c1613;
+  cursor: pointer;
+}
+.WhatsApp {
+  position: absolute;
+  top: 2250px;
+  left: 100px; 
+  width: 1150px;
+  height: 110px;
+  background-color: #0b110e;
+  border-radius: 15px;
+  color: rgb(251, 244, 244);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 45px;
+}
+
+.wtsp_text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+#wtsp_p1 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+#wtsp_p2 {
+  font-size: 13px;
+  color: #cbd5d0;
+}
+
+.wtsp_buttons {
+  display: flex;
+  gap: 12px;
+}
+
+#wtsp_btn1 {
+  background-color: #b7a38c;
+  color: rgb(23, 20, 20);
+  border-radius: 8px;
+  padding: 12px 18px;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+#wtsp_btn2 {
+  background-color: rgba(41, 35, 35, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  border-radius: 8px;
+  padding: 12px 18px;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
 
 /* .container {
   background-image: none;
