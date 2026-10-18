@@ -767,3 +767,163 @@ details[open] summary i {
   width: 18px;
   filter: brightness(0) invert(1);
 }
+
+/* RESPONSIVE */
+
+/* ---------- Tablet (1024px and below) ---------- */
+
+@media (max-width: 1024px) {
+  /* the two columns now stack on top of each other */
+  .product {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .product_images,
+  #description {
+    width: 100%;
+  }
+
+  /* 100vh is too tall once the image is full width */
+  .main_image {
+    height: 500px;
+  }
+
+  /* related products: 2 cards per row */
+  .related_list {
+    flex-wrap: wrap;
+  }
+
+  .related_card {
+    flex: 1 1 40%;
+  }
+}
+
+/* ---------- Mobile (768px and below) ---------- */
+
+@media (max-width: 768px) {
+  main {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .navigation {
+    flex-wrap: wrap;
+    font-size: 13px;
+  }
+
+  .main_image {
+    height: 380px;
+  }
+
+  .four_imgs > img {
+    height: 70px;
+  }
+
+  /* passport card */
+  .about_product .between {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  /* product info */
+  #avantage {
+    flex-wrap: wrap;
+  }
+
+  .product-title {
+    font-size: 26px;
+  }
+
+  #feedback {
+    flex-wrap: wrap;
+  }
+
+  #description_p {
+    font-size: 16px;
+  }
+
+  #description .between {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  #add {
+    font-size: 14px;
+  }
+
+  /* delivery boxes: one under the other */
+  .three_flex_divs_container:last-child {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .three_flex_divs--smaller {
+    width: 100%;
+  }
+
+  /* botanical guide */
+  #guide_botanique {
+    padding: 5%;
+  }
+
+  .three_flex_divs_container--details {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .three_flex_divs--details {
+    width: 100%;
+  }
+
+  /* section titles: button / link goes under the title */
+  .section_head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .outline_button,
+  .catalog_link {
+    margin-bottom: 20px;
+  }
+
+  /* reviews: one card per row */
+  .reviews_list {
+    flex-direction: column;
+  }
+}
+
+/* ---------- Small phones (480px and below) ---------- */
+
+@media (max-width: 480px) {
+  .product-title {
+    font-size: 22px;
+  }
+
+  #price {
+    font-size: 26px;
+  }
+
+  /* passport card: one column */
+  .passport_row {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  /* price box: stock badge goes under the price */
+  #father_price_container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  /* related products: one card per row */
+  .related_card {
+    flex: 1 1 100%;
+  }
+
+  .related_image {
+    height: 200px;
+  }
+}
