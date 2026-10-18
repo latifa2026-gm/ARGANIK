@@ -1,0 +1,228 @@
+body {
+background-color : #fff8ef;
+font-family : 'Plus Jakarta Sans';
+font-size : 16px;
+line-height: 1.5;
+}
+
+.hero-section {
+  background-color : #f9f2e6;
+  display: flex;  
+  gap: 20px ;
+  width: 100vw;
+  height: 60vh;
+  padding : 72px;
+  position: relative;
+}
+
+.text-intro {
+    font-size : 1.25em;
+}
+.hero-intro , .hero-purity  {
+    flex:1;
+}
+
+.hero-purity {
+    display: flex;
+    gap : 10px;
+    position: absolute;
+    bottom: 124px;
+    right : 72px;
+    border: hidden;
+    padding :20px;
+    width: 425px;
+    border-radius: 8px;
+    background-color: #e8e5e0;
+}
+.purity-icon {
+    width: 45px;
+    height: 45px;
+    background-color: #183324;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 8px;
+}
+
+.purity-icon i {
+    color: white; 
+    font-size: 32px;     
+}
+
+.purity-textbox h5 {
+   color: #7c5800;
+}
+.purity-textbox p {
+    color : #052013 ;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Playfair Display';
+}
+.hero-intro ul{
+  list-style : none;
+  padding : 0px;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+  font-size: 14px;
+  margin: 16px 8px;
+}
+.hero-intro ul li {
+    background-color: #ffdda7;
+    padding: 5px 10px;
+    display: inline-block;
+    position: relative;
+    border: hidden;
+    border-radius: 20px;
+    text-align: center;
+}
+.hero-intro ul li::before {
+  content: "\2022";          
+  background-color: #ffdda7; 
+  display: inline-block;
+  margin-right: 8px; 
+}
+
+.hero-intro h1 {
+font-family: 'Playfair Display'; 
+font-size: 2.5em;
+margin-left : 8px ;
+margin-bottom: 8px;
+}
+
+.hero-intro > p {
+    margin-left : 8px
+}
+
+.breadcrump {
+    font-size : 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.breadcrump > img {
+    vertical-align: middle;
+    margin-right: 2px;
+    padding-bottom: 2px;
+}
+
+.categories-bar {
+  height: 81px;
+  display: flex;
+  gap: 15px;
+  background-color: #f2ebe0;
+  padding: 12px 20px;
+  border : hidden;
+  overflow-x: auto;
+  align-items: center;
+}
+
+.categories-bar a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  color :black;
+  padding: 8px;
+  border : hidden;
+  width: auto;
+  height: 40px;
+  letter-spacing: 0.75px;
+  border-radius: 20px ;
+  margin-right: 20px ;
+  white-space: nowrap ;
+  background-color: #e1e1e1;
+}
+.categories-bar span {
+  display: inline-flex ;
+  align-items: center ;
+  justify-content: center ; 
+  width: 20px ;
+  padding : 15px;
+  margin-left: 10px;
+  position : relative;
+  height: 20px ;
+  font-size: 15px ;
+  border-radius: 50%; 
+  background-color: #cdcdcd;
+  font-weight: 500;
+}
+
+
+.filter-cert-option button {
+    border : 3px solid black;
+    padding : 8px;
+    margin : 10px ;
+    border-radius: 5px;
+}
+.filter-cert-option button:focus {
+    background-color: black;
+}
+.filters {
+    margin-top : 48px;
+    margin-left : 48px;
+   background-color: #f9f2e6;
+   border : hidden;
+   border-radius: 16px;
+   width: 324px;
+}
+.titlebox-filter {
+    border : hidden ;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    padding : 18px;
+    padding-bottom : 24px;
+    background-color: #ede6db ;
+    width: 324px;
+}
+.titlebox-filter h5 {
+    font-size : 1.5em ;
+    font-family: 'Playfair Display'; 
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-left: 22px;
+}
+.titlebox-filter img{
+    vertical-align: middle;
+    margin-right: 6px;
+    padding-bottom: 2px;
+}
+
+.filter-by-cert {
+}
+.filter-by-cert h5 {
+
+}
+.filter-by-cert img {
+
+}
+
+.filter-cert-option {
+
+}
+.button-product-details {
+  padding: 12px 24px;
+  text-decoration: none;
+  color: white;
+  background-color: #252525;
+  border-radius: 50px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  margin : 40px auto; 
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: max-content;
+}
+.product-article {
+    margin-top : 48px;
+    margin-left : 48px;
+   background-color: #f9f2e6;
+   border : hidden;
+   border-radius: 16px;
+   width: 324px;
+}
+.product_image1 {
+    width: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
