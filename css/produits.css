@@ -10,8 +10,8 @@ line-height: 1.5;
   display: flex;  
   gap: 20px ;
   width: 100vw;
-  height: 45vh;
-  padding : 100px;
+  height: 60vh;
+  padding : 72px;
   position: relative;
 }
 
@@ -26,8 +26,8 @@ line-height: 1.5;
     display: flex;
     gap : 10px;
     position: absolute;
-    bottom: 100px;
-    right : 150px;
+    bottom: 124px;
+    right : 72px;
     border: hidden;
     padding :20px;
     width: 425px;
@@ -64,7 +64,7 @@ line-height: 1.5;
   font-weight: 600;
   letter-spacing: 0.75px;
   font-size: 14px;
-  margin: 16px 24px;
+  margin: 16px 8px;
 }
 .hero-intro ul li {
     background-color: #ffdda7;
@@ -85,12 +85,12 @@ line-height: 1.5;
 .hero-intro h1 {
 font-family: 'Playfair Display'; 
 font-size: 2.5em;
-margin-left : 24px ;
+margin-left : 8px ;
 margin-bottom: 8px;
 }
 
 .hero-intro > p {
-    margin-left : 24px
+    margin-left : 8px
 }
 
 .breadcrump {
@@ -105,7 +105,45 @@ margin-bottom: 8px;
     padding-bottom: 2px;
 }
 
+.categories-bar {
+  height: 81px;
+  display: flex;
+  gap: 15px;
+  background-color: #f2ebe0;
+  padding: 12px 20px;
+  border : hidden;
+  overflow-x: auto;
+  align-items: center;
+}
 
+.categories-bar a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  color :black;
+  padding: 8px;
+  border : hidden;
+  width: auto;
+  height: 40px;
+  letter-spacing: 0.75px;
+  border-radius: 20px ;
+  margin-right: 20px ;
+  white-space: nowrap ;
+  background-color: #e1e1e1;
+}
+.categories-bar span {
+  display: inline-flex ;
+  align-items: center ;
+  justify-content: center ; 
+  width: 20px ;
+  padding : 15px;
+  margin-left: 10px;
+  height: 20px ;
+  font-size: 15px ;
+  border-radius: 50%; 
+  background-color: #cdcdcd;
+  font-weight: 500;
+}
 /* .filter-cert-option button {
     border : 3px solid black;
     padding : 5px;
