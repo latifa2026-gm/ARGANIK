@@ -3,15 +3,927 @@
   padding: 0;
 }
 
-section {
+main {
+  background-color: #fff7ef;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #2b2b2b;
   padding-top: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 4%;
 }
+
+/* box-sizing only inside main, so the header and footer are not affected */
+main * {
+  box-sizing: border-box;
+}
+
+main a {
+  color: inherit;
+}
+
+/* ---------- Breadcrumb ---------- */
 
 .navigation {
   display: flex;
   align-items: center;
+  gap: 8px;
+  font-size: 14px;
 }
 
 .navigation > a {
   text-decoration: none;
+  color: #555;
+}
+
+.navigation > a:last-child {
+  color: #2f4d3c;
+  font-weight: 600;
+}
+
+.accueil_image {
+  width: 16px;
+}
+
+/* ---------- Product (two columns) ---------- */
+
+.product {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+
+/* ----- Left column ----- */
+
+.product_images {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  gap: 15px;
+}
+
+.main_image_box {
+  position: relative;
+}
+
+.main_image {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.harvest_badge {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* the small green dot before the text */
+.harvest_badge::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #2f4d3c;
+}
+
+.zoom_button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+  color: #2f4d3c;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.four_imgs {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.four_imgs > img {
+  flex: 1;
+  min-width: 0;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.thumb_active {
+  border: 2px solid #2f4d3c;
+}
+
+/* ----- Passport card ----- */
+
+.about_product {
+  background-color: #ececec;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 18px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about_product .between {
+  align-items: center;
+}
+
+#passeport {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+
+#passeport img {
+  width: 18px;
+}
+
+.igp_badge {
+  background-color: #d4d4d4;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+/* two equal columns so the right texts line up */
+.passport_row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.label {
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #777;
+  margin-bottom: 4px;
+}
+
+.value {
+  font-weight: 600;
+}
+
+.cooperative_name {
+  font-size: 13px;
+  color: #555;
+}
+
+.certificate_link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #2f4d3c;
+}
+
+.certificate_link img {
+  width: 14px;
+}
+
+/* ----- Right column ----- */
+
+#description {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+
+#avantage {
+  display: flex;
+  gap: 8px;
+}
+
+.tag {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.tag_green {
+  background-color: #e3e8dc;
+  color: #2f4d3c;
+}
+
+.tag_gold {
+  background-color: #f6e4b8;
+  color: #8a6200;
+}
+
+.product-title {
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #1f3a2a;
+  padding-top: 20px;
+}
+
+#feedback {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 2%;
+  font-size: 14px;
+}
+
+.rating {
+  display: flex;
+  gap: 2px;
+}
+
+.rating img {
+  width: 16px;
+}
+
+#father_price_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.5%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  background-color: #f6ede0;
+  border-radius: 10px;
+}
+
+#price_container {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+#price {
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #1f3a2a;
+}
+
+.euro_price {
+  font-size: 14px;
+  color: #777;
+}
+
+.price_note {
+  font-size: 12px;
+  color: #555;
+  margin-top: 4px;
+}
+
+.stock_badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #dfe9d6;
+  color: #2f4d3c;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.stock_badge::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #2f9e44;
+}
+
+#description_p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.65;
+  margin-bottom: 4%;
+}
+
+.size_label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.size_selected {
+  font-size: 13px;
+  font-weight: 600;
+  color: #8a6200;
+}
+
+/* ----- Size boxes, delivery boxes ----- */
+
+.three_flex_divs_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.three_flex_divs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: #f3ebe7;
+  width: 30%;
+  height: 70px;
+  border-radius: 10px;
+}
+
+.three_flex_divs p {
+  font-size: 14px;
+  color: #555;
+}
+
+.three_flex_divs--featured {
+  background-color: #2f4d3c;
+}
+
+.three_flex_divs--featured p,
+.three_flex_divs--featured strong {
+  color: white;
+}
+
+.three_flex_divs--smaller {
+  height: 60px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+  padding-left: 12px;
+}
+
+.three_flex_divs--smaller img {
+  width: 22px;
+}
+
+.three_flex_divs--smaller strong {
+  display: block;
+  font-size: 14px;
+}
+
+.three_flex_divs--smaller p {
+  font-size: 12px;
+}
+
+/* ----- Quantity and buttons ----- */
+
+#quantity {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f3ebe7;
+  width: 30%;
+  height: 50px;
+  border-radius: 10px;
+}
+
+#quantity button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#add {
+  background-color: #2f4d3c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 67%;
+  height: 50px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* the icons are dark, this makes them white */
+#add img {
+  width: 18px;
+  filter: brightness(0) invert(1);
+}
+
+#achat_express {
+  background-color: #f3ebe7;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 50px;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#achat_express img {
+  width: 18px;
+}
+
+/* ---------- Titles shared by the 3 sections below ---------- */
+
+.section_label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #8a6200;
+}
+
+.section_title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.section_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+/* ---------- Botanical guide ---------- */
+
+#guide_botanique {
+  background-color: #fcf1e4;
+  padding: 3%;
+  border-radius: 15px;
+}
+
+details {
+  background-color: #e8e8e8;
+  padding: 16px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+details > p {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* hide the default arrow in Safari */
+summary::-webkit-details-marker {
+  display: none;
+}
+
+.summary_title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.summary_title img {
+  width: 20px;
+}
+
+/* the chevron turns upside down when the block is open */
+details[open] summary i {
+  transform: rotate(180deg);
+}
+
+.three_flex_divs_container--details {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.three_flex_divs--details {
+  background-color: white;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
+  width: 32%;
+  height: auto;
+  padding: 14px;
+}
+
+.three_flex_divs--details p {
+  font-size: 13px;
+}
+
+/* ---------- Reviews ---------- */
+
+.reviews {
+  margin-top: 60px;
+}
+
+.outline_button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #f3ebe7;
+  border: 1px solid #ddd2c8;
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.outline_button img {
+  width: 18px;
+}
+
+.reviews_list {
+  display: flex;
+  gap: 20px;
+}
+
+.review_card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  background-color: #f3ebe7;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.review_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review_date {
+  font-size: 12px;
+  color: #777;
+}
+
+.review_card h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+}
+
+.review_text {
+  flex: 1;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #444;
+}
+
+.review_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer strong {
+  font-size: 14px;
+}
+
+.reviewer p {
+  font-size: 12px;
+  color: #777;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: #f6c98d;
+  color: #8a4b00;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.verified {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background-color: #dfe9d6;
+  color: #2f4d3c;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.verified img {
+  width: 12px;
+}
+
+/* ---------- Related products ---------- */
+
+.related {
+  margin-top: 60px;
+}
+
+.catalog_link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.catalog_link img {
+  width: 14px;
+}
+
+.related_list {
+  display: flex;
+  gap: 20px;
+}
+
+.related_card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #e8e8e8;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.related_image_box {
+  position: relative;
+}
+
+.related_image {
+  display: block;
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+
+.related_tag {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.related_info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+}
+
+.related_category {
+  font-size: 12px;
+  color: #777;
+}
+
+.related_info h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+}
+
+.related_text {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.related_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 10px;
+}
+
+.related_price {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.related_bottom button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: #2f4d3c;
+  cursor: pointer;
+}
+
+.related_bottom button img {
+  width: 18px;
+  filter: brightness(0) invert(1);
+}
+
+/* RESPONSIVE */
+
+/* ---------- Tablet (1024px and below) ---------- */
+
+@media (max-width: 1024px) {
+  /* the two columns now stack on top of each other */
+  .product {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .product_images,
+  #description {
+    width: 100%;
+  }
+
+  /* 100vh is too tall once the image is full width */
+  .main_image {
+    height: 500px;
+  }
+
+  /* related products: 2 cards per row */
+  .related_list {
+    flex-wrap: wrap;
+  }
+
+  .related_card {
+    flex: 1 1 40%;
+  }
+}
+
+/* ---------- Mobile (768px and below) ---------- */
+
+@media (max-width: 768px) {
+  main {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .navigation {
+    flex-wrap: wrap;
+    font-size: 13px;
+  }
+
+  .main_image {
+    height: 380px;
+  }
+
+  .four_imgs > img {
+    height: 70px;
+  }
+
+  /* passport card */
+  .about_product .between {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  /* product info */
+  #avantage {
+    flex-wrap: wrap;
+  }
+
+  .product-title {
+    font-size: 26px;
+  }
+
+  #feedback {
+    flex-wrap: wrap;
+  }
+
+  #description_p {
+    font-size: 16px;
+  }
+
+  #description .between {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  #add {
+    font-size: 14px;
+  }
+
+  /* delivery boxes: one under the other */
+  .three_flex_divs_container:last-child {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .three_flex_divs--smaller {
+    width: 100%;
+  }
+
+  /* botanical guide */
+  #guide_botanique {
+    padding: 5%;
+  }
+
+  .three_flex_divs_container--details {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .three_flex_divs--details {
+    width: 100%;
+  }
+
+  /* section titles: button / link goes under the title */
+  .section_head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .outline_button,
+  .catalog_link {
+    margin-bottom: 20px;
+  }
+
+  /* reviews: one card per row */
+  .reviews_list {
+    flex-direction: column;
+  }
+}
+
+/* ---------- Small phones (480px and below) ---------- */
+
+@media (max-width: 480px) {
+  .product-title {
+    font-size: 22px;
+  }
+
+  #price {
+    font-size: 26px;
+  }
+
+  /* passport card: one column */
+  .passport_row {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  /* price box: stock badge goes under the price */
+  #father_price_container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  /* related products: one card per row */
+  .related_card {
+    flex: 1 1 100%;
+  }
+
+  .related_image {
+    height: 200px;
+  }
 }
