@@ -31,6 +31,7 @@ body {
 /* concernat les lienss pour eliminer le soulinement */
 a {
   text-decoration: none;
+  color:#1A202C;
 }
 
 /* layout du conteneur ou la facon d'organiser les elements dans ce conteneur  */
@@ -273,7 +274,7 @@ a {
 
 .section-badge {
   display: inline-flex;
-  align-items: center;
+  /* align-items: center; */
   gap: 6px;
   color: var(--color-accent);
   font-size: 12px;
